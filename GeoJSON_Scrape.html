@@ -2,7 +2,7 @@
 <h1>Esri Server to Tableau</h1>
 <h3>GeoJSON scrape tool</h3>
 <p1>Use this tool to download GeoJSON files from public facing services to use with Tableau. Copy the rest service url from the item description page and paste above without a slash "/" at the end of the address. The tool will check for existing layers, and create a checkbox for each existing layer after "Check for Layers" is clicked. Then select what layers you would like to download using the checkboxes and click "Run". <br><br></p1>
-<input class="textBox" type="text" style="width: 600px;" id="input_url" placeholder="Enter url here..." /><br> Ex. https://gis.ne.gov/agencyext/rest/services/LHD_CENSUS_2020/MapServer<br><br>
+<input class="textBox" type="text" style="width: 600px;" id="input_url" placeholder="Enter url here..." /><br> Ex. https://services9.arcgis.com/RHVPKKiFTONKtxq3/arcgis/rest/services/USA_Wildfires_v1/FeatureServer<br><br>
 <button id="button" type="button">Run</button> <button id="buttonAlt" type="button">Check for Layers</button><br><p>Layers to Export:<br>
 <label style=display:none id="layer0"><input type="checkbox" name="accept" value="0"> 0</input><br></label><label style=display:none id="layer1"><input type="checkbox" name="accept" value="1"> 1</input><br></label>
 <label style=display:none id="layer2"><input type="checkbox" name="accept" value="2"> 2</input><br></label><label style=display:none id="layer3"><input type="checkbox" name="accept" value="3"> 3</input><br></label>
